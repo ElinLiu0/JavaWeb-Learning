@@ -1,0 +1,23 @@
+Server Listening on port : 8080
+Server Listening on port : 8080
+Received request from : /127.0.0.1:47078
+Client request: 
+GET ./index.html HTTP/1.1
+Accept: */*
+Accept-Language: zh-cn
+Accept-Encoding: gzip, deflate
+User-Agent: HTTPClient
+Host: localhost:8080
+Connection: Keep-Alive
+
+
+java.lang.NullPointerException: Cannot invoke "java.io.InputStream.read(byte[])" because "<local12>" is null
+	at chap1.HTTPServer.service(HTTPServer.java:107)
+	at chap1.HTTPServer.main(HTTPServer.java:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.execute(Main.java:419)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.run(Main.java:192)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.main(Main.java:132)

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
+http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+            version="2.4">
+        <context-param> <!--context-param与init-parma不同的地方在于context-param是生命周期内所有servlet组件可见-->
+            <param-name>email</param-name>
+            <param-value>elin@gg.com</param-value>
+        </context-param>
+        <servlet>
+            <servlet-name>contextTest</servlet-name><!--初始化的servlet-name需与package同名-->
+            <servlet-class>chap3.contextTest.src.ContextTesterServlet</servlet-class>
+        </servlet>
+        <servlet-mapping>
+            <servlet-name>contextTest</servlet-name>
+            <url-pattern>/contextTest</url-pattern>
+        </servlet-mapping>
+</web-app>

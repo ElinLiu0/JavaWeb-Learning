@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN"
+"http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd">
+<!--标签库的描述文件-->
+<taglib>
+    <tlib-version>1.1</tlib-version> <!--标签库的版本-->
+    <jsp-version>1.4</jsp-version> <!--JSP的版本-->
+    <short-name>mytaglib</short-name> <!--标签库的短名称-->
+    <uri>/mytaglib</uri> <!--标签库的URI-->
+    <tag>
+        <name>hello</name>
+        <tag-class>chap3.helloapp.src.HelloTag</tag-class> <!--标签类的全限定名，对应WEB-INF/classes-->
+        <body-content>empty</body-content>
+        <description>HelloTag Descriptions</description>
+    </tag>
+</taglib>
