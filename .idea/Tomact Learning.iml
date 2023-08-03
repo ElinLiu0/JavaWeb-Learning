@@ -111,6 +111,21 @@
         </sourceRoots>
       </configuration>
     </facet>
+    <facet type="web" name="Web9">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/chap3/annotationSample/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/chap3/annotationSample" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/main/java" />
+          <root url="file://$MODULE_DIR$/src/main/resources" />
+          <root url="file://$MODULE_DIR$" />
+        </sourceRoots>
+      </configuration>
+    </facet>
     <facet type="web" name="Web8">
       <configuration>
         <descriptors>
@@ -119,6 +134,11 @@
         <webroots>
           <root url="file://$MODULE_DIR$/chap3/contextRange" relative="/" />
         </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/main/java" />
+          <root url="file://$MODULE_DIR$/src/main/resources" />
+          <root url="file://$MODULE_DIR$" />
+        </sourceRoots>
       </configuration>
     </facet>
   </component>
