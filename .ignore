@@ -2,4 +2,7 @@
 *.zip
 # 删除target文件夹
 /target/*/
+# 删除.idea文件夹
+/.idea/*/
+/target/*/*.class
 ```
