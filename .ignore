@@ -1,4 +1,5 @@
 *.exe
 *.zip
-/target
+# 删除target文件夹
+/target/*
 ```
