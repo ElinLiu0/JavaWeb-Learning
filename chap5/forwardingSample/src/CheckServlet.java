@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.*;
 import javax.servlet.annotation.*;
 import com.alibaba.fastjson.*;
-@WebServlet("/check")
+@WebServlet("/forwarding-check")
 public class CheckServlet extends GenericServlet {
     private static JSONObject userMap = new JSONObject();
     @Override

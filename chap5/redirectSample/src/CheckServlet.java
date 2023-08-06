@@ -4,7 +4,7 @@ import javax.servlet.http.*;
 import java.io.*;
 import java.util.*;
 import javax.servlet.annotation.*;
-@WebServlet(name = "CheckServlet", urlPatterns = {"/forwarding-check"})
+@WebServlet(name = "CheckServlet", urlPatterns = {"/redirect-check"})
 public class CheckServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

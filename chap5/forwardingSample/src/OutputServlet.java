@@ -4,7 +4,7 @@ import javax.servlet.annotation.*;
 import java.io.*;
 import java.util.*;
 import com.alibaba.fastjson.*;
-@WebServlet("/output")
+@WebServlet("/forwarding-output")
 public class OutputServlet extends GenericServlet {
     @Override
     public void service(ServletRequest servletRequest, ServletResponse servletResponse) throws ServletException, IOException {

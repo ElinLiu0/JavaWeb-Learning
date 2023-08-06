@@ -8,7 +8,6 @@ import com.alibaba.fastjson.*;
 public class PushServlet extends HttpServlet{
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        super.doGet(req, resp);
         resp.setContentType("text/html;charset=UTF-8");
         PrintWriter out = resp.getWriter();
 

@@ -8,7 +8,7 @@ public class MyServletContextListener implements ServletContextListener {
         ServletContext context = sce.getServletContext();
         try{
             // 从文件中读取计数器的值
-            BufferedReader reader = new BufferedReader(new InputStreamReader(context.getResourceAsStream("../counter.txt")));
+            BufferedReader reader = new BufferedReader(new InputStreamReader(context.getResourceAsStream("/WEB-INF/counter.txt")));
             int count = Integer.parseInt(reader.readLine());
             System.out.println("count = "+count);
             // 关闭文件流
